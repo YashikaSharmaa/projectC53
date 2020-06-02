@@ -1,0 +1,78 @@
+html {
+    margin-left: 50px;
+    background-image: url("imgFile/back.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.header {
+    background-color: rgb(189, 71, 32);
+}
+
+.footer a {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 130%;
+}
+
+a:link , a:visited {
+    text-decoration: none;
+    color: navy;
+    font-size: 200%;
+}
+
+a:active {
+    text-decoration: none;
+    color: rgb(27, 173, 117);   
+    font-size: 200%;
+}
+
+h1 {
+    background-color: rgba(224, 72, 12, 0.945);
+    color: rgb(14, 223, 153);
+    font-size: 500%;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(10, 206, 163);
+    font-size: 400%;
+    text-align: center;
+}
+
+h3 {
+    color: rgba(157, 29, 195, 0.938);
+    font-size: 250%;
+    text-align: center;
+}
+
+h4 {
+    color: rgba(10, 149, 10, 0.952);
+    font-size: x-large;
+    text-align: center;
+}
+
+.tableIndex {
+    background-color: rgba(74, 23, 243, 0.637);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-radius: 20px;
+}
+
+img:hover {
+    border-radius: 60px;
+}
+
+.images img {
+    width: 25%;
+}
